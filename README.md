@@ -1,5 +1,4 @@
 # Day 5 - Final Project Instructions
-
 1. Final Project Instructions & Mini-Review (10 mins)
 Overview: Walk through the project requirements, delivery expectations, and presentation guidelines.
 
