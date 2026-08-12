@@ -25,3 +25,24 @@ else:
 
 #Print out the final price of the ticket
 print("Ticket Price:", ticket_price)
+
+
+# Review on Booleans
+correct_password = "sunshine123"
+attempts_left = 3
+logged_in = False   # starts as False because we haven't logged in yet
+
+while attempts_left > 0 and logged_in == False:
+    entered_password = input("Enter password: ")
+
+    if entered_password == correct_password:
+        logged_in = True
+        print("Access granted!")
+    else:
+        attempts_left = attempts_left - 1
+        print("Wrong password. Attempts left:", attempts_left)
+
+if logged_in == True:
+    print("Welcome in!")
+else:
+    print("Account locked. Too many wrong attempts.")
